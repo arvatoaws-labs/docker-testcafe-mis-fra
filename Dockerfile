@@ -15,5 +15,6 @@ RUN apk --no-cache $ALPINE_REPOS add \
       pangomm-dev \
       libjpeg-turbo-dev \
       freetype-dev
+RUN touch /docker.env
 USER user
 ENTRYPOINT []
